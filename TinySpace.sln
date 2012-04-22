@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinySpace.Game", "TinySpace.Game\TinySpace.Game\TinySpace.Game.csproj", "{E72DB881-55B2-4B1B-A86D-F080D521EFEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinySpace.GameContent", "TinySpace.Game\TinySpace.GameContent\TinySpace.GameContent.contentproj", "{A5A56704-2E5E-440B-A05A-D2E2F5A4183D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinySpace.Scene", "TinySpace.Scene\TinySpace.Scene.csproj", "{70CFF58A-258B-4559-A84A-522F730BFA9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinySpace.Entity", "TinySpace.Entity\TinySpace.Entity.csproj", "{F1C0F218-D335-49E6-B9F2-5B512B102590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinySpace.Core", "TinySpace.Core\TinySpace.Core.csproj", "{7C87D2ED-906E-4236-BC01-478C9DB99BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinySpace.Sprite", "TinySpace.Sprite\TinySpace.Sprite.csproj", "{15880135-1623-4B39-A787-FA856D2D3FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinySpace.State", "TinySpace.State\TinySpace.State.csproj", "{F95146D4-F44C-4BCD-B505-62035D9BC6D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{94FE375D-78B2-46A9-AEE3-BD02496C10ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E72DB881-55B2-4B1B-A86D-F080D521EFEE}.Debug|x86.ActiveCfg = Debug|x86
+		{E72DB881-55B2-4B1B-A86D-F080D521EFEE}.Debug|x86.Build.0 = Debug|x86
+		{E72DB881-55B2-4B1B-A86D-F080D521EFEE}.Release|x86.ActiveCfg = Release|x86
+		{E72DB881-55B2-4B1B-A86D-F080D521EFEE}.Release|x86.Build.0 = Release|x86
+		{A5A56704-2E5E-440B-A05A-D2E2F5A4183D}.Debug|x86.ActiveCfg = Debug|x86
+		{A5A56704-2E5E-440B-A05A-D2E2F5A4183D}.Release|x86.ActiveCfg = Release|x86
+		{70CFF58A-258B-4559-A84A-522F730BFA9D}.Debug|x86.ActiveCfg = Debug|x86
+		{70CFF58A-258B-4559-A84A-522F730BFA9D}.Debug|x86.Build.0 = Debug|x86
+		{70CFF58A-258B-4559-A84A-522F730BFA9D}.Release|x86.ActiveCfg = Release|x86
+		{70CFF58A-258B-4559-A84A-522F730BFA9D}.Release|x86.Build.0 = Release|x86
+		{F1C0F218-D335-49E6-B9F2-5B512B102590}.Debug|x86.ActiveCfg = Debug|x86
+		{F1C0F218-D335-49E6-B9F2-5B512B102590}.Debug|x86.Build.0 = Debug|x86
+		{F1C0F218-D335-49E6-B9F2-5B512B102590}.Release|x86.ActiveCfg = Release|x86
+		{F1C0F218-D335-49E6-B9F2-5B512B102590}.Release|x86.Build.0 = Release|x86
+		{7C87D2ED-906E-4236-BC01-478C9DB99BE8}.Debug|x86.ActiveCfg = Debug|x86
+		{7C87D2ED-906E-4236-BC01-478C9DB99BE8}.Debug|x86.Build.0 = Debug|x86
+		{7C87D2ED-906E-4236-BC01-478C9DB99BE8}.Release|x86.ActiveCfg = Release|x86
+		{7C87D2ED-906E-4236-BC01-478C9DB99BE8}.Release|x86.Build.0 = Release|x86
+		{15880135-1623-4B39-A787-FA856D2D3FB1}.Debug|x86.ActiveCfg = Debug|x86
+		{15880135-1623-4B39-A787-FA856D2D3FB1}.Debug|x86.Build.0 = Debug|x86
+		{15880135-1623-4B39-A787-FA856D2D3FB1}.Release|x86.ActiveCfg = Release|x86
+		{15880135-1623-4B39-A787-FA856D2D3FB1}.Release|x86.Build.0 = Release|x86
+		{F95146D4-F44C-4BCD-B505-62035D9BC6D3}.Debug|x86.ActiveCfg = Debug|x86
+		{F95146D4-F44C-4BCD-B505-62035D9BC6D3}.Debug|x86.Build.0 = Debug|x86
+		{F95146D4-F44C-4BCD-B505-62035D9BC6D3}.Release|x86.ActiveCfg = Release|x86
+		{F95146D4-F44C-4BCD-B505-62035D9BC6D3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C87D2ED-906E-4236-BC01-478C9DB99BE8} = {94FE375D-78B2-46A9-AEE3-BD02496C10ED}
+		{F1C0F218-D335-49E6-B9F2-5B512B102590} = {94FE375D-78B2-46A9-AEE3-BD02496C10ED}
+		{70CFF58A-258B-4559-A84A-522F730BFA9D} = {94FE375D-78B2-46A9-AEE3-BD02496C10ED}
+		{15880135-1623-4B39-A787-FA856D2D3FB1} = {94FE375D-78B2-46A9-AEE3-BD02496C10ED}
+		{F95146D4-F44C-4BCD-B505-62035D9BC6D3} = {94FE375D-78B2-46A9-AEE3-BD02496C10ED}
+	EndGlobalSection
+EndGlobal
